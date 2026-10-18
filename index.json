@@ -1,0 +1,337 @@
+{
+  "name": "国内家宽实测清单",
+  "wallpaper": "",
+  "spider": "",
+  "sites": [],
+  "lives": [],
+  "parses": [
+    {
+      "name": "Web解析",
+      "type": 3,
+      "url": "",
+      "ext": {
+        "flag": [
+          "qq",
+          "iqiyi",
+          "youku",
+          "mgtv",
+          "bilibili",
+          "sohu"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    "qq",
+    "iqiyi",
+    "youku",
+    "mgtv",
+    "bilibili",
+    "sohu",
+    "letv",
+    "xigua"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "开启软解",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "不开启软解",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "自适应软解",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "ads": [],
+  "groups": [
+    {
+      "name": "A级·三关全过",
+      "type": "影视",
+      "sites": [
+        {
+          "key": "lovedan",
+          "name": "艾旦影视",
+          "type": 3,
+          "api": "https://lovedan.net/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "bfzy",
+          "name": "暴风资源",
+          "type": 3,
+          "api": "https://bfzyapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "jinying",
+          "name": "金鹰资源",
+          "type": 3,
+          "api": "https://jyzyapi.com/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "hongniu",
+          "name": "红牛资源",
+          "type": 3,
+          "api": "https://hongniuzy2.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "xinlang",
+          "name": "新浪资源",
+          "type": 3,
+          "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "huohuo",
+          "name": "火狐采集",
+          "type": 3,
+          "api": "https://hhzyapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "jisu",
+          "name": "极速资源",
+          "type": 3,
+          "api": "https://jszyapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "tianya",
+          "name": "天涯资源",
+          "type": 3,
+          "api": "https://www.tyyszy.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "diyi",
+          "name": "第一资源",
+          "type": 3,
+          "api": "https://caiji.diyizy.net/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "baiduyun",
+          "name": "百度云",
+          "type": 3,
+          "api": "https://api.apibdzy.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "zuidamax",
+          "name": "最大资源",
+          "type": 3,
+          "api": "https://api.zuidapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "kuaiche",
+          "name": "快车资源",
+          "type": 3,
+          "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "shandian",
+          "name": "闪电资源",
+          "type": 3,
+          "api": "https://sdzyapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "yaya",
+          "name": "鸭鸭资源",
+          "type": 3,
+          "api": "https://cj.yayazy.net/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        }
+      ]
+    },
+    {
+      "name": "B级·可用偏慢",
+      "type": "影视",
+      "sites": [
+        {
+          "key": "subo",
+          "name": "速播资源",
+          "type": 3,
+          "api": "https://subocaiji.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "niuniu",
+          "name": "牛牛资源",
+          "type": 3,
+          "api": "https://api.niuniuzy.me/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "okzy",
+          "name": "ok资源",
+          "type": 3,
+          "api": "https://api.okzyw.net/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "wujin",
+          "name": "无尽资源",
+          "type": 3,
+          "api": "https://api.wujinapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "guangsu",
+          "name": "光速资源",
+          "type": 3,
+          "api": "https://api.guangsuapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "modu",
+          "name": "魔都资源",
+          "type": 3,
+          "api": "https://caiji.moduapi.cc/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "maotai",
+          "name": "茅台资源",
+          "type": 3,
+          "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "wsy",
+          "name": "无水印",
+          "type": 3,
+          "api": "https://api.wsyzy.net/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "zy360",
+          "name": "360资源",
+          "type": 3,
+          "api": "https://360zy.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        }
+      ]
+    },
+    {
+      "name": "C级·部分失效",
+      "type": "影视",
+      "sites": [
+        {
+          "key": "liangzi",
+          "name": "量子资源",
+          "type": 3,
+          "api": "https://cj.lziapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "dytt",
+          "name": "电影天堂",
+          "type": 3,
+          "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        },
+        {
+          "key": "douban",
+          "name": "豆瓣资源",
+          "type": 3,
+          "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "./json/ext.json"
+        }
+      ]
+    }
+  ]
+}
